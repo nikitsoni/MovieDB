@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+
+.App {
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* form {
+  display: flex;
+  flex-direction: column;
+} */
+/* @media screen and (max-width: 600px) {
+ form{
+  display: flex;
+  flex-direction: column;
+ }
+ .submit-btn{
+   width: 50%;
+ }
+} */
+form{
+  width: 100%;
+}
+ .search-input{
+  width: 50%;
+  margin:10px auto;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none
+}
+.submit-btn{
+  width: auto;
+  margin:10px 10px;
+  padding: 10px 20px;
+  font-family: 'Pacifico', cursive;
+  border: none;
+  cursor: pointer;
+  background: gold;
+  border-radius: 50px;
+} 
+.movies{
+  width: 90%;
+  background: gray;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}

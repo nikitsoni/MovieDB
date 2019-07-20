@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+h1 {
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 22px;
+}
+.content{
+    height: auto;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
